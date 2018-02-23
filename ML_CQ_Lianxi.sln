@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_CQ_Lianxi", "ML_CQ_Lianxi.csproj", "{E4192E76-D622-EA16-08C7-1A3CB4744C4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_CQ_Lianxi.Editor", "ML_CQ_Lianxi.Editor.csproj", "{ABE4D400-3D4F-2680-9329-E411305CF064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4192E76-D622-EA16-08C7-1A3CB4744C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4192E76-D622-EA16-08C7-1A3CB4744C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4192E76-D622-EA16-08C7-1A3CB4744C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4192E76-D622-EA16-08C7-1A3CB4744C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE4D400-3D4F-2680-9329-E411305CF064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE4D400-3D4F-2680-9329-E411305CF064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE4D400-3D4F-2680-9329-E411305CF064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE4D400-3D4F-2680-9329-E411305CF064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
