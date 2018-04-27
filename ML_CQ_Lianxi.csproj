@@ -15,7 +15,7 @@
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>5.5.4p2</UnityVersion>
     <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
@@ -27,7 +27,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_4;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_4;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -37,7 +37,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_4;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_4;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -82,6 +82,9 @@
     <Reference Include="DOTween50">
       <HintPath>Assets/Plugins/DOTween/DOTween50.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets/Plugins/LitJson-0.9.0/LitJson.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:/Unity/install/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
@@ -93,12 +96,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\RoleAnimBehaviorView.cs" />
-    <Compile Include="Assets\Script\RoleBehaviorView.cs" />
-    <Compile Include="Assets\Script\UIScroll\PressDragListView.cs" />
-    <Compile Include="Assets\Script\UIScroll\ProgressBarView.cs" />
-    <Compile Include="Assets\Script\UIScroll\UIScrollView.cs" />
-    <Compile Include="Assets\Script\ZhuanPanView.cs" />
+    <Compile Include="Assets\Script\Base\ResAsset\ResAssetLoad.cs" />
+    <Compile Include="Assets\Script\Base\ResAsset\ResAssetManage.cs" />
+    <Compile Include="Assets\Script\Base\ResAsset\ResAssetUtil.cs" />
+    <Compile Include="Assets\Script\Game\Comm\AppConst.cs" />
+    <Compile Include="Assets\Script\Game\Comm\CustomManager.cs" />
+    <Compile Include="Assets\Script\Game\Comm\GameInit.cs" />
+    <Compile Include="Assets\Script\Game\Comm\GameSetting.cs" />
+    <Compile Include="Assets\Script\Game\Util\AnimationCurve\AnimationCurveTest.cs" />
+    <Compile Include="Assets\Script\Game\Util\Sort\SortTool.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\AssetBundleScript\OpenPanel.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Astar\AstarFunction_1\CreatGridView.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Astar\AstarFunction_1\GridBarrierView.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Astar\AstarFunction_2\AstartView.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Astar\AstarFunction_2\GameRoleView.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Astar\AstarFunction_2\SelectAttackSlot.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\CharacterLimit.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\CombineMesh\CharacterCombine.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\CombineMesh\CombineMeshView.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\CombineMesh\CombineSkinMeshView.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\CombineMesh\CombineSkinMeshsView.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Conf\Achieve\AchieveItemVo.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Conf\Achieve\AchieveVo.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Conf\Atlas\AtlasVo.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Conf\ConfAssetVo.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\Conf\ConfVo.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\MyExtension\MyExtension.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\RoleAnimBehaviorView.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\RoleBehaviorView.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\SyncPVP\Data\GameVoManage.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\SyncPVP\Data\RoleModelSync\RoleSyncDataVo.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\SyncPVP\Data\RoleModelSync\RoleSyncItemVo.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\SyncPVP\Net\GameNet.cs" />
+    <Compile Include="Assets\Script\Game\Util\Test\SyncPVP\View\RoleObjView.cs" />
+    <Compile Include="Assets\Script\Game\Util\UIScroll\PressDragListView.cs" />
+    <Compile Include="Assets\Script\Game\Util\UIScroll\ProgressBarView.cs" />
+    <Compile Include="Assets\Script\Game\Util\UIScroll\UIScrollView.cs" />
+    <Compile Include="Assets\Script\Game\View\ZhuanPanView.cs" />
+    <Compile Include="Assets\Script\Game\View\ziyuantihuan.cs" />
+    <Compile Include="Assets\guaguale\_Scripts\DrawMask.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\DOTween\DOTween.XML" />
@@ -107,6 +143,10 @@
     <None Include="Assets\Plugins\DOTween\DOTween50.xml" />
     <None Include="Assets\Plugins\DOTween\Editor\DOTweenEditor.XML" />
     <None Include="Assets\Plugins\DOTween\readme.txt" />
+    <None Include="Assets\Resources\Data\Shader\OutLine.shader" />
+    <None Include="Assets\Resources\自定义文件夹说明.txt" />
+    <None Include="Assets\guaguale\_Shaders\MaskShader.shader" />
+    <None Include="Assets\guaguale\刮刮乐效果.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
