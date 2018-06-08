@@ -1,0 +1,22 @@
+StartTime:20180525140742
+PluginVersion:1.0.4.0
+PackageName:com.Company.lianxi
+AppName:ML_CQ_Lianxi
+TestMode:Overview
+UnityVersion:5.5.4p2
+Platform:Android
+OperatingSystem:Android OS 7.0 / API-24 (NRD90M/m86.Flyme_6.0.1522227750)
+DeviceID:b3f96f8a7bb8e84b08552060f8c1f55b
+DeviceName:<unknown>
+DeviceModel:Meizu PRO 5
+DeviceType:Handheld
+GraphicsDeviceName:Mali-T760
+GraphicsDeviceVersion:OpenGL ES 3.2 v1.r15p0-00rel0.d0b58160d4f6f5202f5895dbae1171a0
+GraphicsMemorySize:1024
+GraphicsPixelFillRate:-1
+ProcessorCount:8
+ProcessorType:ARMv7 VFPv3 NEON
+SystemMemorySize:2709
+SystemLanguage:ChineseSimplified
+ScreenResolution:1920x1080
+ScreenOrientation:Landscape

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Resources/Data/Scene/ResAssetManage.unity
+- path: Assets/Resources/Data/Scene/UISlide.unity
   isLoaded: 1
   isActive: 1

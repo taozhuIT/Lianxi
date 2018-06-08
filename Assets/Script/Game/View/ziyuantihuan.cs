@@ -32,6 +32,7 @@ public class ziyuantihuan : MonoBehaviour
     {
         loadStartBtn.onClick.AddListener(OnLoadResSandbox);
         loadStartBtn2.onClick.AddListener(OnLoadRes);
+        Debug.Log("XXXXXXXXXXX");
     }
 
     /// <summary>
@@ -40,6 +41,7 @@ public class ziyuantihuan : MonoBehaviour
 	private void Start ()
     {
         //OnResCopy();
+        Debug.Log("XXXXXXXXXXX");
     }
 
     /// <summary>

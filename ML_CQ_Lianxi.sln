@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_CQ_Lianxi", "ML_CQ_Lianxi.csproj", "{E4192E76-D622-EA16-08C7-1A3CB4744C4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_CQ_Lianxi.Editor", "ML_CQ_Lianxi.Editor.csproj", "{ABE4D400-3D4F-2680-9329-E411305CF064}"
