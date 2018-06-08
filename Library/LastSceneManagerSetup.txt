@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Resources/Data/Scene/UISlide.unity
+- path: Assets/Resources/Data/Scene/UnityChan.unity
   isLoaded: 1
   isActive: 1

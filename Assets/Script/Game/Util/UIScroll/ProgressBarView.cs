@@ -53,7 +53,5 @@ public class ProgressBarView : MonoBehaviour
     {
         minProgres = 0f;
         isStart = true;
-
-        this.transform.FindChild("Cube").gameObject.AddComponent<qwe>();
     }
 }
