@@ -16,6 +16,8 @@ public class ProgressBarView : MonoBehaviour
 
     // 是否开始
     private bool isStart = false;
+    // 是否减速
+    public bool isSpeedCut = true;
 
     private float velcoty = 0.0f;
     public float smoothtime = 0.2f;
@@ -35,10 +37,13 @@ public class ProgressBarView : MonoBehaviour
     /// </summary>
 	private void Update ()
     {
+        // 减速进度条
         if (isStart && minProgres < maxProgres)
         {
-            minProgres = Mathf.SmoothDamp(minProgres, maxProgres, ref velcoty, smoothtime);
-            slider.value = minProgres;
+            if (isSpeedCut)
+                OnSpeedCut();
+            else
+                OnSpeedUp();
         }
         else
         {
@@ -47,11 +52,56 @@ public class ProgressBarView : MonoBehaviour
 	}
 
     /// <summary>
+    /// 进度条减速的渐进
+    /// </summary>
+    private void OnSpeedCut()
+    {
+        minProgres = Mathf.SmoothDamp(minProgres, maxProgres, ref velcoty, smoothtime);
+        slider.value = minProgres;
+    }
+
+    float nowRate = 0f;
+    float time = 0f;
+    /// <summary>
+    /// 进度条加速的渐进
+    /// </summary>
+    private void OnSpeedUp()
+    {
+        if (nowRate < maxProgres)
+            nowRate += time * 0.1f;
+
+        slider.value = nowRate;
+        time += Time.deltaTime;
+    }
+
+    /// <summary>
+    /// 进度条加速的渐进
+    /// </summary>
+    //private IEnumerator Rate()
+    //{
+    //    float nowRate = 0f;
+    //    float time = 0f;
+    //    while (true)
+    //    {
+    //        if (nowRate < _totleRate)
+    //            nowRate += time * _addValue;
+    //        else
+    //            yield break;
+
+    //        _content.fillAmount = nowRate;
+    //        time += Time.deltaTime;
+
+    //        yield return new WaitForSeconds(_referTime);
+    //    }
+    //}
+
+    /// <summary>
     /// 点击开始
     /// </summary>
     private void OnStartHandelr()
     {
         minProgres = 0f;
+        slider.value = minProgres;
         isStart = true;
     }
 }
