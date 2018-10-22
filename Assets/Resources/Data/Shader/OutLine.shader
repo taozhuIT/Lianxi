@@ -1,80 +1,47 @@
-Shader "Custom/OutLine3" 
-{
-    Properties
-    {
-        _MainTex("Base", 2D) = ""{ }
-		_NormalMap("NormalMap", 2D) = ""{ }
-		_Factor("factor",Range(0,0.1)) = 0.01//描边粗细因子
-        _OutLineColor("outline color",Color) = (0,0,0,1)//描边颜色
-    }
- 
-    SubShader
-    {
-        //描边
-        pass
-        {
-            Cull Front
-            Offset -5,-1 //深度偏移
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #include "UnityCG.cginc"
- 
-            sampler2D _MainTex;
-            half4 _OutLineColor;
- 
-            struct v2f
-            {
-                float4  pos : SV_POSITION;
-            };
- 
-            v2f vert(appdata_base v)
-            {
-                v2f o;
-                o.pos = mul(UNITY_MATRIX_MVP,v.vertex);
-                return o;
-            }
- 
-            float4 frag(v2f i) : COLOR
-            {
-                return _OutLineColor;
-            }
-            ENDCG
-        }
- 
-        //正常渲染物体
-        pass
-        {
-            //Cull Back
-            //Offset 5,-1
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #include "UnityCG.cginc"
- 
-            sampler2D _MainTex;
-            float4 _MainTex_ST;
- 
-            struct v2f
-            {
-                float4  pos : SV_POSITION;
-                float2  uv : TEXCOORD0;
-            };
- 
-            v2f vert(appdata_base v)
-            {
-                v2f o;
-                o.pos = mul(UNITY_MATRIX_MVP,v.vertex);
-                o.uv = TRANSFORM_TEX(v.texcoord,_MainTex);
-                return o;
-            }
- 
-            float4 frag(v2f i) : COLOR
-            {
-                float4 c = tex2D(_MainTex,i.uv);
-                return c;
-            }
-            ENDCG
-        }
-    }
-}
+Shader "Custom/RimLighting" {  
+    Properties {  
+        _Color ("Color", Color) = (1,1,1,1)  
+        _MainTex ("Albedo (RGB)", 2D) = "white" {}  
+        //边缘光颜色  
+        _RimColor("Rim Color",Color) =(1,1,1,1)  
+        //边缘光强度  
+        _RimPower("Rim Power", Range(0.5,8.0)) = 3.0  
+    }  
+    SubShader {  
+        Tags { "RenderType"="Opaque" }  
+        LOD 200  
+         
+        CGPROGRAM  
+        // Physically based Standard lighting model, and enable shadows on all light types  
+        #pragma surface surf Standard fullforwardshadows  
+  
+        // Use shader model 3.0 target, to get nicer looking lighting  
+        #pragma target 3.0  
+  
+        sampler2D _MainTex;  
+  
+        struct Input {  
+            float2 uv_MainTex;  
+            //法线  
+            float3 worldNormal;  
+            //视角方向  
+            float3 viewDir;  
+        };  
+  
+        fixed4 _Color;  
+        fixed4 _RimColor;  
+        half _RimPower;  
+  
+        void surf (Input IN, inout SurfaceOutputStandard o) {  
+            // Albedo comes from a texture tinted by color  
+            fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;  
+            o.Albedo = c.rgb;  
+            o.Alpha = c.a;  
+              
+            half rim = 1.0 - saturate(dot(normalize(IN.viewDir), IN.worldNormal));  
+            o.Emission = _RimColor.rgb * pow(rim, _RimPower);  
+        }  
+        ENDCG  
+    }  
+    FallBack "Diffuse"  
+}  

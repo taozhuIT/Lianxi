@@ -633,6 +633,7 @@
     <Compile Include="Assets\Script\Game\Comm\CustomManager.cs" />
     <Compile Include="Assets\Script\Game\Comm\GameInit.cs" />
     <Compile Include="Assets\Script\Game\Comm\GameSetting.cs" />
+    <Compile Include="Assets\Script\Game\NewMash.cs" />
     <Compile Include="Assets\Script\Game\RefreshTimer\GetText.cs" />
     <Compile Include="Assets\Script\Game\RefreshTimer\ObjTimer.cs" />
     <Compile Include="Assets\Script\Game\RefreshTimer\SkillTimer.cs" />
@@ -666,9 +667,11 @@
     <Compile Include="Assets\Script\Game\Util\Test\SyncPVP\Data\RoleModelSync\RoleSyncItemVo.cs" />
     <Compile Include="Assets\Script\Game\Util\Test\SyncPVP\Net\GameNet.cs" />
     <Compile Include="Assets\Script\Game\Util\Test\SyncPVP\View\RoleObjView.cs" />
+    <Compile Include="Assets\Script\Game\Util\TestUIMask.cs" />
     <Compile Include="Assets\Script\Game\Util\UIScroll\PressDragListView.cs" />
     <Compile Include="Assets\Script\Game\Util\UIScroll\ProgressBarView.cs" />
     <Compile Include="Assets\Script\Game\Util\UIScroll\UIScrollView.cs" />
+    <Compile Include="Assets\Script\Game\View\RoleCtrlView.cs" />
     <Compile Include="Assets\Script\Game\View\ZhuanPanView.cs" />
     <Compile Include="Assets\Script\Game\View\ziyuantihuan.cs" />
     <Compile Include="Assets\Script\LoadTexterTest.cs" />
@@ -676,6 +679,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Behavior Designer\Editor\GridShader.shader" />
+    <None Include="Assets\Editor\MeshRendererEditor\脚本介绍.txt" />
     <None Include="Assets\Plugins\DOTween\DOTween.XML" />
     <None Include="Assets\Plugins\DOTween\DOTween43.xml" />
     <None Include="Assets\Plugins\DOTween\DOTween46.xml" />
@@ -694,7 +698,10 @@
     <None Include="Assets\Resources\Data\Resources\Model\Role\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\Resources\Data\Resources\Model\Role\UnityChan\Stage\Shader\AlphaMask.shader" />
     <None Include="Assets\Resources\Data\Resources\Model\Role\UnityChan\license.txt" />
+    <None Include="Assets\Resources\Data\Shader\AlphaTransparency.shader" />
     <None Include="Assets\Resources\Data\Shader\OutLine.shader" />
+    <None Include="Assets\Resources\Data\Shader\Particle\Particle-Add-UIMask.shader" />
+    <None Include="Assets\Resources\Data\Shader\Particle\Particle-AlphaBlended-UIMask.shader" />
     <None Include="Assets\Resources\自定义文件夹说明.txt" />
     <None Include="Assets\UWA\UWALib\serverip.txt" />
     <None Include="Assets\guaguale\_Shaders\MaskShader.shader" />

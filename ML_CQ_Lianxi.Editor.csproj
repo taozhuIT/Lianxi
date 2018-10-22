@@ -177,9 +177,12 @@
     <Compile Include="Assets\Editor\CreateAssetBundle\CreateAssetBundle.cs" />
     <Compile Include="Assets\Editor\CreateNormalMap.cs" />
     <Compile Include="Assets\Editor\ImageFormatTool.cs" />
+    <Compile Include="Assets\Editor\MeshRendererEditor\DecoratorEditor.cs" />
+    <Compile Include="Assets\Editor\MeshRendererEditor\taoMyMeshRender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Behavior Designer\Editor\GridShader.shader" />
+    <None Include="Assets\Editor\MeshRendererEditor\脚本介绍.txt" />
     <None Include="Assets\Plugins\DOTween\DOTween.XML" />
     <None Include="Assets\Plugins\DOTween\DOTween43.xml" />
     <None Include="Assets\Plugins\DOTween\DOTween46.xml" />
@@ -198,7 +201,10 @@
     <None Include="Assets\Resources\Data\Resources\Model\Role\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\Resources\Data\Resources\Model\Role\UnityChan\Stage\Shader\AlphaMask.shader" />
     <None Include="Assets\Resources\Data\Resources\Model\Role\UnityChan\license.txt" />
+    <None Include="Assets\Resources\Data\Shader\AlphaTransparency.shader" />
     <None Include="Assets\Resources\Data\Shader\OutLine.shader" />
+    <None Include="Assets\Resources\Data\Shader\Particle\Particle-Add-UIMask.shader" />
+    <None Include="Assets\Resources\Data\Shader\Particle\Particle-AlphaBlended-UIMask.shader" />
     <None Include="Assets\Resources\自定义文件夹说明.txt" />
     <None Include="Assets\UWA\UWALib\serverip.txt" />
     <None Include="Assets\guaguale\_Shaders\MaskShader.shader" />
