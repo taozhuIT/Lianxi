@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Resources/Data/Scene/UIListMask.unity
+- path: Assets/Plugins/Spine Examples/Getting Started/3 Controlling Animation Continued.unity
   isLoaded: 1
   isActive: 1
